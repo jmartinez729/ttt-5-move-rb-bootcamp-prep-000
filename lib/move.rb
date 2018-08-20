@@ -18,3 +18,5 @@ def move(board, position, char="X")
   return board_position_char
  
 end
+
+move(board, 2)
