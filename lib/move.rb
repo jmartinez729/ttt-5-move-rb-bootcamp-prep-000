@@ -12,6 +12,7 @@ end
 
 def move
   char = "X"
-  tic_tac_toe = [board, input_to_index, char]
+  position = input_to_index
+  tic_tac_toe = [board, position, char]
   return tic_tac_toe
 end
