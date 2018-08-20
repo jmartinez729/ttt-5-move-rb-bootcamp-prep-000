@@ -7,19 +7,17 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-=begin
 def input_to_index(user_input)
  user_input = user_input.to_i - 1
 end 
  
-
-def move(board, position, char="X")
+def move(board, position, current_player="X")
   char = "X"
   position = input_to_index
-  board_position_char = [board, position, char]
+
   
   return board_position_char
  
 end
-=end
+
 display_board(10000)
