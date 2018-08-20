@@ -19,4 +19,4 @@ def move(board, position, char="X")
  
 end
 
-move(board, 2)
+puts move(board, 2)
