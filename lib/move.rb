@@ -16,4 +16,3 @@ def move(board, position, current_player="X")
  
 end
 
-display_board(10000)
