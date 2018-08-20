@@ -22,4 +22,4 @@ def move(board, position, char="X")
  
 end
 =end
-display_board(board)
+display_board()
