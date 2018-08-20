@@ -17,4 +17,4 @@ def move(board=display_board, position, char="X")
  
 end
 
-puts move(2)
+puts move(_, 2, _)
