@@ -10,9 +10,7 @@ def input_to_index(user_input)
  user_input = user_input.to_i - 1
 end 
 
-puts input_to_index(6)
-
-
-#def move
-#  return [board, input_to_index, "X"]
-#end
+def move
+  tic_tac_toe = [board, input_to_index, "X"]
+  return tic_tac_toe
+end
