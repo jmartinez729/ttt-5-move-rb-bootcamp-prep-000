@@ -11,6 +11,7 @@ def input_to_index(user_input)
 end 
 
 def move
-  tic_tac_toe = [board, input_to_index, "X"]
+  char = "X"
+  tic_tac_toe = [board, input_to_index, char]
   return tic_tac_toe
 end
