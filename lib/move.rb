@@ -1,4 +1,4 @@
-=begin
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -7,10 +7,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+=begin
 def input_to_index(user_input)
  user_input = user_input.to_i - 1
 end 
-=end 
+ 
 
 def move(board, position, char="X")
   char = "X"
@@ -20,5 +21,5 @@ def move(board, position, char="X")
   return board_position_char
  
 end
-
-puts move(board, 2)
+=end
+puts display_board
