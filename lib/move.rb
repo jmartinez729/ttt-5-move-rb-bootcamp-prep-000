@@ -13,7 +13,7 @@ end
 def move(board, position)
   char = "X"
   position = input_to_index
-  board_position_char = [board, position, char]
+ 
   
   
 end
