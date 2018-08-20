@@ -12,11 +12,7 @@ def input_to_index(user_input)
 end 
  
 def move(board, position, current_player="X")
-  char = "X"
-  position = input_to_index
-
-  
-  return board_position_char
+  @board[index] = current_player
  
 end
 
